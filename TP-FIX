@@ -1,0 +1,40 @@
+spawn(function()
+    
+   if game.PlaceId == 536102540 and _G.GoEarth == false and _G.AntiLeach == false then
+         wait(15)
+     game:GetService("TeleportService"):Teleport(3565304751, LocalPlayer)
+   elseif game.PlaceId == 3565304751 and _G.AntiLeach == false and _G.GoEarth == false then
+       wait(30 + _G.ExtraTime)
+     game:GetService("TeleportService"):Teleport(536102540, LocalPlayer)
+   
+    -- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --
+   
+   elseif game.PlaceId == 3565304751 and _G.AntiLeach == true and _G.GoEarth == false then
+          wait(60 + _G.ExtraTime)
+     game:GetService("TeleportService"):Teleport(536102540, LocalPlayer)
+   elseif game.PlaceId == 536102540 and _G.GoEarth == false and _G.AntiLeach == true then
+         wait(15)
+     game:GetService("TeleportService"):Teleport(3565304751, LocalPlayer)
+   
+    -- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --
+
+   elseif game.PlaceId == 3565304751 and _G.AntiLeach == false and _G.GoEarth == true then
+       wait(15)
+     game:GetService("TeleportService"):Teleport(536102540, LocalPlayer)
+   elseif game.PlaceId == 536102540 and _G.GoEarth == true and _G.AntiLeach == false then
+         wait(60 + _G.ExtraTime)
+     game:GetService("TeleportService"):Teleport(3565304751, LocalPlayer)
+   
+    -- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --
+
+   elseif game.PlaceId == 536102540 and _G.GoEarth == true and _G.AntiLeach == true then
+       wait(60 + _G.ExtraTime)
+     game:GetService("TeleportService"):Teleport(3565304751, LocalPlayer)
+   elseif game.PlaceId == 3565304751 and _G.GoEarth == true and _G.AntiLeach == true then
+       wait(15)
+     game:GetService("TeleportService"):Teleport(536102540, LocalPlayer)
+   
+    -- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// --
+       
+   end
+   end)

@@ -1,50 +1,43 @@
-         spawn(function()
-            if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests then
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.ImageLabel:Destroy()
-            else
-            end
-            end)
-            spawn(function()
-            if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer then
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer:Destroy()
-            else
-            end
-            end)
-            spawn(function()
-            if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer2 then
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer2:Destroy()
-            else
-            end
-            end)
-            spawn(function()
-            if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy then
-            repeat 
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy:Destroy()
-            until not game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy
-            else
-            end
-            end)
-            spawn(function()
-            if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money2 then
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money2:Destroy()
-            else
-            end
-            end)
-            spawn(function()
-            if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money3 then
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money3:Destroy()
-            else
-            end
-            end)
-            
-            spawn(function()
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money.Font = "Fantasy"
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money.Text = "Creado por/Made By NabilDr#4888"
-                game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money.TextSize = 48
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.TextLabel.Text = "AutoBroly_NDR"
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.TextLabel.TextSize = 120
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money2.Visible = true
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Visible = true  
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy.Visible = true
-            game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy2.Visible = true
-            end)
+        spawn(function()
+           if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests then
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.ImageLabel:Destroy()
+           else
+           end
+           end)
+           spawn(function()
+           if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer then
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer:Destroy()
+           else
+           end
+           end)
+           spawn(function()
+           if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer2 then
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Timer2:Destroy()
+           else
+           end
+           end)
+           spawn(function()
+           if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy then
+           repeat 
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy:Destroy()
+           until not game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy
+           else
+           end
+           end)
+           spawn(function()
+           if game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money2 then
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money2:Destroy()
+           else
+           end
+           end)
+           spawn(function()
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money.Font = "Fantasy"
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money.Text = "Creado por/Made By NabilDr#4888"
+               game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money.TextSize = 48
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.TextLabel.Text = "AutoBroly_NDR"
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.TextLabel.TextSize = 120
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Money2.Visible = true
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Visible = true  
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy.Visible = true
+           game.Players.LocalPlayer.PlayerGui.HUD.FullSize.Quests.Copy2.Visible = true
+           end)
